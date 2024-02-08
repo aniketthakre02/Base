@@ -1,0 +1,323 @@
+        .SignIn{
+            display: flex; 
+            height: 1024px;
+            overflow-y: auto;
+            .left{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                height: 100%;
+                width: 50%;
+                // background-color:  #605BFF;
+                // border: 1px solid black;
+                background: linear-gradient(98deg,  #605BFF 80%, #FFFFFF 20%);
+                
+                .top{
+                flex:1;
+                position:relative;
+                align-items: flex-start;
+                width:100%;
+                .logo{
+                    position: absolute;
+                    top:10%;
+                    left:7%; 
+                    right: 5px; 
+                    display: flex;
+                    flex-direction: column;
+                    height: 100px;
+                        .img1{
+                        width:80.15px;
+                        height:80.15px;
+                        padding:10px;
+                        img{
+                            width: 100%; /* Make the image width 100% of the parent div */
+                            height: 100%; /* Make the image height 100% of the parent div */
+                            object-fit: cover;
+                        }
+                        }
+                        .img2{
+                            width:80.15px;
+                            height:80.15px;
+                            position: absolute;
+                            top:40%;
+                            left:1.2%;
+                            
+                                img{
+                                width:84.15px; /* Make the image width 100% of the parent div */
+                                height: 28.04PX; /* Make the image height 100% of the parent div */
+                                border: 6PX;
+                                // background-color: black;
+                                object-fit: cover;
+                                }
+
+                        }
+
+                }
+            }    
+            .middle{
+            flex:1;   
+            width:100%;
+            
+            text-align: left;
+            color:  #FFFFFF;
+            position: relative;
+            .tag{
+                position: absolute; // Set the position property to absolute for the child
+                top: 50%; // Move the child down by 50% of the parent's height
+                left: 50%; // Move the child right by 50% of the parent's width
+                transform: translate(-50%, -50%);               
+                span{
+                font: lato;
+                font-size: 72px;
+                font-weight: 700;
+                line-height: 88px;
+
+                }
+
+            }
+
+            }
+
+            .icons{
+                flex:1;
+                width:100%;
+                display: flex;
+                flex-direction: column;
+                width: 100px;
+                height: 16px;
+                justify: space-between;
+                padding: 20px;
+                text-align: center;
+                position: relative;
+                .images{
+                    width:299px;
+                    height: 48px;
+                    gap:10px;
+                    display: flex;
+                    position: absolute; // Set the position property to absolute for the child
+                    top: 80%; // Move the child down by 50% of the parent's height
+                    left: 30%; // Move the child right by 50% of the parent's width
+                    transform: translate(-50%, -50%);
+                    justify-content: space-between;
+                    img{
+                        width: 42px;
+                        height: 41px;
+                           
+                    }
+
+                }
+                
+            }
+            }
+
+
+
+            .right{
+                height: 100%;
+                width: 50%;
+                background-color:  #F8FAFF;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                justify-content: fit;
+
+
+                .main{
+                    width: 422.64px;
+                    
+                    .div1{
+                        height: 72.3px;
+                        .l1{
+                            width:143.81px;
+                            height: 48.3px;
+                            font: Montserrat;
+                            font-weight: 700;
+                            font-size: 36px;
+                            display: flex;
+                            justify-content: left;
+                        }
+                        .l2{
+                            width: 176.74px;
+                            height: 20.86;
+                            font:Lato;
+                            font-weight: 400;
+                            font-size: 16px;
+                            height: 19.2px;
+                            justify-content: left;
+                        }
+                        margin-bottom: 20px;
+                    }
+                    .div2{
+                        width:100%;
+                        height:32.93px;
+                        display: flex;
+                        background-color:#FFFFFF;
+                        gap: 5px;
+                        
+                        display: flex;
+                        .d1{
+                            width: 197px;
+                            height: 32.93px;
+
+                            
+                            width:50%;
+                            height:17.93px;
+                            display: flex;
+                            justify-content:left;
+                            padding: 5px;
+                            border-radius: 10px;
+                            gap: 10px;
+                            .logo1{
+                                width:15.37px;
+                                height:15.37px;
+                                img{
+                                    width:15.37px;
+                                    height:15.37px;
+                                }
+                            }
+                            .text1{
+                                  align-items: center;
+                                  color: #858585;
+                                  font-family:Montserrat;
+                                  font-weight: 400;
+                                  font-size: 12px;
+
+                                    color: #858585;
+                                    font-family:Montserrat;
+                                    font-weight: 400;
+                                    font-size: 12px;
+                                  
+                                     
+                            }
+                            
+                        }
+                        .d2{
+
+                            width:50%;
+                            height:17.93px;
+                            display: flex;
+                             justify-content: left;
+                            text-align: center;
+                            padding: 5px;
+                            border-radius: 10px;
+                            gap:10px;
+                            .logo1{
+
+                                width:15.37px;
+                                height:15.37px;
+                                img{
+                                    width:15.37px;
+                                    height:15.37px;
+                                }
+                            }
+                            .text1{
+                                  align-items: center;
+                                  color: #858585;
+                                  font-family:Montserrat;
+                                  font-weight: 400;
+                                  font-size: 12px;
+                                  
+
+                                    color: #858585;
+                                    font-family:Montserrat;
+                                    font-weight: 400;
+                                    font-size: 12px;                                     
+                            }
+                           
+                            
+
+                        }
+                        margin-bottom: 20px;
+
+                    }
+                    .div3{
+                        height: 277px;
+                        width:100%;
+                        background-color:#FFFFFF;
+                        text-align: left;
+                        padding: 10px;
+                        gap: 5px;
+                        dl{
+                            gap:10px;
+                            dt{
+                                font: lato;
+                                font-weight:400;
+                                font-size: 16px;
+                                color: black;
+                                margin-bottom: 10px; 
+
+                            }
+                            input{
+                                color: black;
+                                font:Lato;
+                                font-weight: 400;
+                                font-size: 16px;
+                                margin-bottom: 10px;
+                                border:none;
+
+                                &::placeholder {
+                                    color: black;
+                                }
+                                
+                                background-color:  #F5F5F5;
+                                border-radius: 10px;
+                                width:100%;
+                                height: 43.19px;
+                                padding:5px;
+                                
+                            }
+                            dd{
+                                color: #346BD4;
+                                font: Lato;
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 19px;
+                                letter-spacing: 0em;
+                                text-align: left;
+                                margin-left: 0%;
+
+                                margin-bottom: 10px;
+                                
+                            }
+                            button{
+                                background-color: #605BFF;  ;
+                                width: 356.77px;
+                                height:43.91px;
+                                border-radius: 10px;
+                                color: #FFFFFF;
+                                font-family: Montserrat;
+                                font-size: 16px;
+                                font-weight: 700;
+                                line-height: 20px;
+                                letter-spacing: 0em;
+                                text-align: center;
+                                width:100%;    
+                                border:none;
+                                
+                            }
+
+                        }
+
+                      margin-bottom: 30px;  
+
+                    }
+                    .div4{
+                        text-align: center;
+                        height: 20.46px;
+                        span{
+                            font:lato;
+                            font-weight: 400;
+                            font-size: 16px;
+                            color: #858585;
+                            .s2{
+                                color:#346BD4;
+                            }
+                        }
+                        margin-top:20px;
+                    }
+
+                }
+            }
+
+        }

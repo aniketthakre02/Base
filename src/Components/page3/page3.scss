@@ -1,0 +1,217 @@
+.parent{
+    height:1024px;
+    width: 1440px;
+    display: flex;
+    .left{
+    width:218px;
+    height:100%;
+        .title{
+            width:100%;
+            height: 142px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .title1{
+                width:111px;
+                height:42px;
+                display: flex;
+                justify-content: space-around;
+                
+                .logo{
+                    display: flex;
+                    justify-content:center;
+                    gap:20px;
+
+                    img{
+                    height: 42px;
+                    width: 42px;
+
+                    }
+                    
+
+                }
+                .logoname{
+                    height: 42px;
+                    width: 42px;
+                    text-align: center;
+                    
+                    font:Nunito;
+                    font-weight: 600;
+                    font-size: 24px;
+                    color:#030229 ;
+                    
+
+                }
+
+            }
+
+        }
+        .itembar{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width:154px;
+            height:424.99px;
+            align-items: center;
+            padding: 10px;
+            margin-left: 20px;
+            div{
+                display: flex;
+                gap:10px;
+                width:100%;
+                
+
+                img{
+                    height: 20px;
+                    width: 20px;
+                }
+            
+                span{
+                    font: Nunito;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 22px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color:  #9A9AA9;
+
+                }
+
+            }
+            .uploadlogo{
+                width: 100%;
+                height: 22.02px;
+            }
+            
+            
+            
+            
+        }
+    }
+    .right{
+        flex:1;
+        height:100%;
+        .navbar{
+        height: 32px;
+        width:100%;
+        display: flex;
+        margin-top: 49px;
+
+            .left{
+            height: 32px;
+            width:1052px;
+            span{
+                font-family: "Figtree", sans-serif;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 32px;
+                letter-spacing: 0px;
+                text-align: left;
+            }
+            }
+            .right{
+                flex :1;
+                display: flex;
+                gap:40px;
+                align-items:flex-end;
+            img{
+                height: 30px;
+                width: 30px;
+            }
+
+            }
+        }
+
+        .main{
+            width:596px;
+            height: 367px;
+            margin-top:169px;
+            margin-left: 318px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            .upload{
+                width:100%;                height: 258px;
+                border: 2px dotted #EBEBEB;
+                border-radius: 8px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color:  #FFFFFF;
+
+                .upload1{ 
+                    display: flex;
+                    flex-direction: column;
+                    width: 267px;
+                    height: 76px;
+                    gap:10px;
+                    align-items: center;
+                    img{
+                        width: 36px;
+                        height: 36px;
+
+                    }
+                    span{
+                        font:figtree;
+                        font-weight: 400;
+                        font-size:16px;
+                        color:#999CA0;
+                        align-items: center;
+                        .p2{
+                            color: #605BFF;
+
+                        }                        
+
+                    }
+
+                }
+                
+            }
+            .uploadbutton{
+                width: 564px;
+                height: 56px;
+                top: 295px;
+                left: 16px;
+                padding: 8px 16px 8px 8px;
+                border-radius: 8px;
+                gap: 8px;
+                background-color: #605BFF;
+                .button{
+                    background-color: #605BFF;
+                    border: none;
+                    margin-top:3%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+
+                    img{
+                        width:24px;
+                        height: 24px;
+                    }
+                    span{
+                        font: "Figtree", sans-serif;
+                        font-size: 14px;
+                        font-weight: 600;
+                        line-height: 24px;
+                        letter-spacing: 0px;
+                        text-align: left;
+                        background-color: 605BFF;
+                        color:#FFFFFF;
+                    }
+
+                }
+
+                
+
+            
+
+            }
+
+        }
+
+    }
+}

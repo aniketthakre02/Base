@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Page1 from './Components/page1/page1';
+import Page2 from './Components/page2/page2';
+import Page3 from './Components/page3/page3';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Page3 />
   </React.StrictMode>
 );
 
