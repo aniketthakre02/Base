@@ -6,10 +6,12 @@ import reportWebVitals from './reportWebVitals';
 import Page1 from './Components/page1/page1';
 import Page2 from './Components/page2/page2';
 import Page3 from './Components/page3/page3';
+import Tab from './Components/table/tab'
+import Page21 from './Components/page2.1/page21'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Page1 />
+    <App/>
   </React.StrictMode>
 );
 

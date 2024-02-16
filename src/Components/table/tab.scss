@@ -1,0 +1,112 @@
+.parent{
+    &.responsive {
+        @media (max-width: 768px) {
+            
+            flex-direction: column;
+            width: 414px;
+            overflow-y: none;
+          }
+        width:100%;
+        background-color: #f0f0f0;
+        // Add any specific styles for the responsive design here
+        h2 {
+          color: #333;
+        }
+      }
+    
+      .responsive-design {
+        // Styles for the responsive design content
+      }
+    .table{
+        .my-table{
+            width: 1065px;
+            height: 419px;
+            background-color: #F5F5F5;
+            justify-content: space-between;
+            border-collapse: collapse;
+            border-radius: 8px;
+            
+            thead,tbody{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding:10px;
+            font:Figtree;
+                .table-header{
+                    background-color: #F5F5F5;
+                    margin-bottom :10px;
+                    margin-left: 0px;
+                    border-radius: 8px;   
+                    align-items: left;
+                    th{
+                       font-weight:600;
+                       font-size:14px;
+                       color:#000000;
+                        margin-left:0px;
+                        text-align: left;
+                        width: 180px;
+                     
+
+                    }
+
+                }
+                tr{ 
+                    width: 1034px;
+                    height:58px;
+                    background-color:  #FFFFFF;
+                    border-radius: 8px;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+
+                    td{
+                        font-weight:400;
+                        font-size:14px;
+                        a{
+                            color:#5B93FF;
+                        }
+
+                        select {
+                            width: 150px;
+                            height: 32px;
+                            padding: 6px;
+                            display: flex;
+                            flex-direction: column;
+                            border: none;
+                            border-radius: 8px;
+                            option{
+                                
+                            }
+                            
+        
+                          }
+                        .tag-list{
+                            list-style-type: none;
+                            width: 150px;
+                            display: flex;
+                            gap: 5px;
+                            align-items: center;
+                            color: #FFFFFF;
+                            padding:2px;
+                            li{
+                               
+                                width: 40px;
+                                height:24px;
+                                padding: 4px,4px,4px,4px;
+                                background-color: #605BFF;
+                                border-radius: 4px;
+                                justify-content: center;
+ 
+                            }
+                        }
+                    }
+
+                }
+
+            }
+          
+           
+
+        }
+    }
+}

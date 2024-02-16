@@ -1,7 +1,7 @@
     import "./page2.scss";
     import logo from "../../assets/Picture1_baselogo.png"
     import dashboard from "../../assets/Picture1_dashboard.png";
-    import upload from "../../assets/Picture1_upload.png";
+    import upload from "../../assets/Picture1_upload1.png";
     import invoice from "../../assets/Picture1_invoice.png";
     import schedule from "../../assets/Picture1_schedule.png";
     import calender from "../../assets/Picture1_calender.png";
@@ -11,6 +11,9 @@
     import excel from "../../assets/Picture1_excel.png"
     import rightnoti from "../../assets/Picture_rightNotification.png"
     import profile from "../../assets/Picture1_profile.png"
+
+    import { Link } from "react-router-dom";
+    import Page21 from "../page2.1/page21";
     export default function Page2(){
         return(
             <div className="parent">
@@ -26,7 +29,7 @@
                     </div>
                     <div className="itembar">
                         <div><img src={dashboard} alt=""/><span>Dashboard</span></div>
-                        <div className="uploadlogo">< img src={upload} alt=""/></div>
+                        <div>< img src={upload} alt=""/><span style={{ color: '#605BFF' }}>Upload</span></div>
                         <div><img src={invoice} alt=""/><span>Invoice</span></div>
                         <div><img src={schedule} alt=""/><span>Schedule</span></div>
                         <div><img src={calender} alt=""/><span>Calendar</span></div>
@@ -49,14 +52,17 @@
                             <div className="upload1">
                             <img src={excel} alt=""/>
                                 <span className="p1">Drop your sheet here or . 
-                                    <span className="p2">browse</span>
+                                    <span className="p22">browse</span>
                                 </span>
                             </div>
                         </div>
                         <div className="uploadbutton">
-                                <div className="button">    <img src={uploadIcon} alt="icon"/>
+                            <Link to="/Page21">
+                                <div className="button">  
+                                  <img src={uploadIcon} alt="icon"/>
                                     <span>Upload</span>
                                 </div>
+                            </Link>
                             </div>
                     </div>
                 </div>
